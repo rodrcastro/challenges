@@ -46,6 +46,7 @@ h3 {
 }
 
 .pricing {
+    /* display: flex; */
     background-color: hsl(179, 62%, 43%);
     width: 50%;
     border-radius: 0px 0px 0px 8px;
@@ -55,7 +56,7 @@ h3 {
 .dollar {
     font-size: 30px;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 span {
@@ -65,6 +66,7 @@ span {
 }
 
 .whyus {
+    /* display: flex; */
     background-color: #19ccc9;
     width: 50%;
     border-radius: 0px 0px 8px 0px;
@@ -86,6 +88,12 @@ button {
     border: 0px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
     width: 70%;
+    font-weight: 700;
+    transition: all 300ms;
+}
+
+button:hover {
+    transform: scale(1.025);
 }
 
 .attribution { 
