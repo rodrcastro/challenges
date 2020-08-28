@@ -1,0 +1,97 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 3rem auto;
+    width: 50%;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.438);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.community {
+    background-color: #fff;
+    border-radius: 8px 8px 0px 0px;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
+    color: grey;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.lower{
+    display: flex;
+    color: #e5eff5;
+}
+
+.pricing {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    border-radius: 0px 0px 0px 8px;
+    padding: 40px;
+}
+
+.dollar {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 15px;
+    margin-left: 10px;
+    color: hsl(204, 43%, 93%, 0.5);
+}
+
+.whyus {
+    background-color: #19ccc9;
+    width: 50%;
+    border-radius: 0px 0px 8px 0px;
+    padding: 40px;
+}
+
+.whyus p {
+    line-height: 0.5;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+button {
+    padding: 15px 60px;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    width: 70%;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
