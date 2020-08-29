@@ -13,6 +13,7 @@ h1 {
 
 h2 {
     color: hsl(71, 73%, 54%);
+    
 }
 
 h3 {
@@ -43,6 +44,29 @@ h3 {
 .lower{
     display: flex;
     color: #e5eff5;
+}
+
+@media screen and (max-width: 850px){
+    .lower {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .pricing {
+        background-color: hsl(179, 62%, 43%);
+        border-radius: 0px !important;
+        width: auto !important;
+        padding: 40px;
+    }
+
+    .whyus {
+        /* display: flex; */
+        background-color: #19ccc9;
+        border-radius: 0px 0px 8px 8px !important;
+        width: auto !important;
+        padding: 40px;
+    }
+
 }
 
 .pricing {
